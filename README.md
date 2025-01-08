@@ -7,7 +7,7 @@ A python program that takes as input class attributes and methods and generates 
 _In progress:_
 
 
-_Perceptron: attempting to code my first perceptron in python_
+_Perceptron: coding my first perceptron in python_
 
 
 _A1: coding a dungeon crawler game in python._
