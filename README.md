@@ -1,7 +1,7 @@
 # Python-projects
 
 ## Class Blueprint:
-A python program that takes as input class attributes and methods and generates a class and automatically writes test case functions.
+A python program that takes as input class attributes and methods and generates a class which automatically writes test functions.
 &nbsp;\
 &nbsp;\
 _In progress:_
