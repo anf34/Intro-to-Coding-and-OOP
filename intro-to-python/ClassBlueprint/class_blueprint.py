@@ -2,7 +2,6 @@ from helper import *
 import os
 
 
-
 class ClassBlueprint:
 
     def __init__(self, name, attributes, methods):
@@ -134,6 +133,8 @@ class ClassBlueprint:
         for method in self.methods:
             file_content.write("\tdef " + str_to_snake_case(method) + "(self" + "):\n\t\tpass\n\n")
 
+    #Also at the end of the file have an example of an instantiation of the class object
+
 
 #Class maker. Specify  the class name, attributes, each of the attribute types, extra methods
 #Class maker will then:
@@ -149,3 +150,7 @@ class ClassBlueprint:
 
 #must put underscroe for attributes
 #The extra methods list is allowed to be empty upon input. fix that.
+
+#For example
+
+#person = ClassBlueprint("Person", [("age", "int") ,("height", "float"),("hair colour", "str")], ["grow", "change person hair colour"])
