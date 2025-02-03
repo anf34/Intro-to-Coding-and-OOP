@@ -1,3 +1,5 @@
+As is, this script took a while to make and is already saving me a lot of time in the long run. I will use it as a prototype for a while so I can discover the programs flaws before making any major changes to it.
+
 Class maker program
 Input: Specify the class name, attributes, each of the attribute types and any extra methods
 Class maker will then:
@@ -16,8 +18,6 @@ The extra methods list must contain a method or the program crashes*
 For example
 
 person = ClassBlueprint("Person", [("age", "int"), ("height", "float"), ("hair colour", "str")], ["grow", "change person hair colour"])
-
-As is, this script took a while to make and is saving me a lot of time in the long run. I will use it as a prototype for a while and come up with improvements. After I encounter enough problems with it, I will significantly alter this program.
 
 Future improvements:
 FIXED? 0 evaluates to false in python so this code currently doesn't let you use 0 as an int...
