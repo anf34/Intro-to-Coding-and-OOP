@@ -126,5 +126,3 @@ class ClassBlueprint:
     def additional_methods(self, file_content):
         for method in self.methods:
             file_content.write("\tdef " + str_to_snake_case(method) + "(self" + "):\n\t\tpass\n\n")
-
-    #Also at the end of the file have an example of an instantiation of the class object
