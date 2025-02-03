@@ -1,6 +1,6 @@
 As is, this script took a while to make and is already saving me a lot of time in the long run. I will use it as a prototype for a while so I can discover the programs flaws before making any major changes to it.
 
-Class maker program
+Class maker program (Written in python, will soon write IN P5 INSTEAD, to generate python or p5 classes)
 Input: Specify the class name, attributes, each of the attribute types and any extra methods
 Class maker will then:
 - make a class with given name
