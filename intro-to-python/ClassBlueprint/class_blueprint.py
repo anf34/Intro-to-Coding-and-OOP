@@ -2,6 +2,8 @@ from helper import *
 import os
 
 
+
+
 class ClassBlueprint:
 
     def __init__(self, name, attributes, methods):
@@ -10,17 +12,6 @@ class ClassBlueprint:
         self.attributes = attributes
         self.methods = methods
         self.camelname = camel_to_snake(name);
-
-        #Future improvements:
-        #Change the order of the functions so they show up in this file as they show up in write_constructor.
-        #str_to_snake_case and camel_to_snake are very similar functions in the helper file.
-        #the helper file is a liability. Currently must ensure it is always in the same directory as this file.
-        #Make (self, attribute0, attribute1, ...) a string and simply write the string whenever that is needed, instead of calling a function that writes it for you.
-        #More compartmentalisation needed
-        #Add comments
-        #Extra feature: if one of the attributes is a list, automatically add a function to the file called "has_attribute_name", eg an attribute for a list of nicknames, the has function has_nickname(str) will return true if str is one of the nicknames.
-        #Come up with a better system to keep track of number of tabs
-        #Do a test to make sure none of attributes or method are the empty string.
 
     def validate_input(self, name, attributes, methods):
         self.name_check(name)
@@ -112,8 +103,11 @@ class ClassBlueprint:
     def write_tests(self, file_content):
         for (attribute, attr_type) in self.attributes:
             snake_attr = str_to_snake_case(attribute)
-            file_content.write("\tdef validate_" + snake_attr + "(" + snake_attr + "):\n")
-            file_content.write("\t\tif not (" + snake_attr +" and isinstance(" + snake_attr + ", " + attr_type + ")):\n")
+            file_content.write("\tdef validate_" + snake_attr + "(self, " + snake_attr + "):\n")
+            if attr_type == "int":
+                file_content.write("\t\tif not isinstance(" + snake_attr + ", " + attr_type + ")):\n")
+            else:
+                file_content.write("\t\tif not (" + snake_attr +" and isinstance(" + snake_attr + ", " + attr_type + ")):\n")
             file_content.write("\t\t\traise TypeError('" + attribute.capitalize() + " must be of type " + attr_type + " and non empty.')\n\n")
 
     def getter_methods(self, file_content):
@@ -134,23 +128,3 @@ class ClassBlueprint:
             file_content.write("\tdef " + str_to_snake_case(method) + "(self" + "):\n\t\tpass\n\n")
 
     #Also at the end of the file have an example of an instantiation of the class object
-
-
-#Class maker. Specify  the class name, attributes, each of the attribute types, extra methods
-#Class maker will then:
-#-make a class with given name
-#-perform a check to see if all provided types are of their attribute types
-#-all extra methods will just pass
-#-if x attribute is of type list the class will add a has_x(input) method which returns true if the list contains the input
-#-automatically make setter and getter methods for each attribute
-#-the setters will check the input value is correct
-#-it will also check that input strings are not empty
-
-#Make sure input is CamelCase cause idk how to do word recognition.
-
-#must put underscroe for attributes
-#The extra methods list is allowed to be empty upon input. fix that.
-
-#For example
-
-#person = ClassBlueprint("Person", [("age", "int") ,("height", "float"),("hair colour", "str")], ["grow", "change person hair colour"])
