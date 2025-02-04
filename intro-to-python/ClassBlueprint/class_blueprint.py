@@ -2,8 +2,6 @@ from helper import *
 import os
 
 
-
-
 class ClassBlueprint:
 
     def __init__(self, name, attributes, methods):
