@@ -5,8 +5,7 @@ A python program that takes as input class attributes and methods and generates 
 &nbsp;
 &nbsp;
 
-## Perceptron: 
-My first perceptron from scratch.
+
 <br>
 <br>
 
