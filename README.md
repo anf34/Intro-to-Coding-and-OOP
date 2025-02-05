@@ -7,6 +7,8 @@ A python program that takes as input class attributes and methods and generates 
 
 ## Perceptron: 
 My first perceptron from scratch.
+<br>
+<br>
 
 _Next on to do list:_
 
