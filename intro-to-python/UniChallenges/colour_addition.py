@@ -102,9 +102,6 @@ def channel_to_rgb(channel):
     return p
 
 
-
-
-
 #Check that the input from the user are valid pixels and the second input is a valid pixel or channel
 sum = 0
 if valid_pixel_value(pixel_0) and (valid_pixel_value(pixel_1) or valid_channel_value(pixel_1)):
