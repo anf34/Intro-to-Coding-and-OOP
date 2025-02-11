@@ -10,4 +10,4 @@ A python program that takes as input class attributes and methods and generates 
 _Next on to do list:_
 
 
-_A1: coding a dungeon crawler game in python._
+_A2: coding a dungeon crawler game in python._
