@@ -1,4 +1,4 @@
-# YOUR CODE HERE
+#INCOMPLETE
 
 numbers = input("Enter 4 integers: ")
 

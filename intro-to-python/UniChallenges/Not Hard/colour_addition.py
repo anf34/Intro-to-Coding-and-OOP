@@ -1,5 +1,4 @@
 """
-Task description:
 Change Colour
 Since you have done the tutorial, you should be able to extract RGB values from integer representation of a pixel. This challenge requires reading in a pixel value and the RGB changes to be made to the colour.
 
@@ -20,6 +19,7 @@ Your new pixel value is: 0x825050
 """
 
 from helper_itp import char_is_hex
+
 
 pixel_0 = input("Please provide a pixel value: ")
 
@@ -76,8 +76,7 @@ def valid_channel_value(channel):
     return True
 
 #Check if a character is a hex digit
-#This function definition is in helper_itp.py
-
+#Imported from helper_itp
 
 #Convert pixel string to rgb array
 def pixel_to_rgb(pixel):
