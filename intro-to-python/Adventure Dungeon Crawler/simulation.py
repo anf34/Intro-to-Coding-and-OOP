@@ -4,6 +4,8 @@ from adventurer import Adventurer
 from quest import Quest
 import sys
 
+
+
 def read_paths(source):
 	"""Returns a list of lists according to the specifications in a config file, (source).
 
@@ -43,7 +45,7 @@ def generate_quests(source, items, rooms):
 	source contains quest specifications of the form:
 	reward | action | quest description | before_text | after_text | quest requirements | failure message | success message | quest location
 	"""
-	
+
 	# TODO
 
 	return None
@@ -53,3 +55,6 @@ def generate_quests(source, items, rooms):
 
 
 # TODO: Receive commands from standard input and act appropriately.
+
+r = Room("Library")
+r.draw()
