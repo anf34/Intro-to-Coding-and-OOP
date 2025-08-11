@@ -108,6 +108,10 @@ class Room:
 				#Otherwise put an empty space
 				else:
 					room_grid[i][j] = " "
+		print("North is: " + str(self.north))
+		print("East is: " + str(self.east))
+		print("South is: " + str(self.south))
+		print("West is: " + str(self.west))
 
 		for inner_list in room_grid:
 			print("".join(map(str, inner_list)))
@@ -158,3 +162,16 @@ class Room:
 
 	def get_west(self):
 		return self.west
+
+	#sets the approaite neighbouring room to a room object
+	def set_north(self, name):
+		self.north = name
+
+	def set_south(self, name):
+		self.south = name
+
+	def set_east(self, name):
+		self.east = name
+
+	def set_west(self, name):
+		self.west = name

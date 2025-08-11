@@ -1,0 +1,6 @@
+['stiling', 'tilings']
+['lippers', 'slipper']
+['gunshot', 'shotgun']
+['layover', 'overlay']
+['airings', 'sairing']
+['lookout', 'outlook']

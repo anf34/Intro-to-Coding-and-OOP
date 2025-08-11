@@ -20,7 +20,13 @@ from class_blueprint import ClassBlueprint
 #spell.write_to_file()
 
 #cd /Users/anthonyvolpe/Documents/UNI_DEFINITIVE/sum24-25/info1110/labs/9/ClassBlueprint
+#
+# spellbook = ClassBlueprint("Spellbook",[("material", "str"), ("capacity", "int")], ["add_spell", "cast_spell", "cast_strongest", "cast_all", "recharge_all"])
+#
+# spellbook.write_to_file()
 
-spellbook = ClassBlueprint("Spellbook", [("material", "str"), ("capacity", "int")], ["add_spell", "cast_spell", "cast_strongest", "cast_all", "recharge_all"])
 
-spellbook.write_to_file()
+#song = ClassBlueprint("Song",[("artist", "str"), ("album", "str"), ("name", "str"), ("dat", "str")], ["dummy", "dummy2"])
+song = ClassBlueprint("Song", [("artist", "str"), ("album", "str"), ("name", "str"), ("dat", "str")], ["dummy", "dummy2"])
+
+song.write_to_file()

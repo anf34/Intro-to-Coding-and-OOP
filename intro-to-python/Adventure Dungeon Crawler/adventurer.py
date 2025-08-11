@@ -5,6 +5,8 @@ class Adventurer:
         self.inventory = []
         self.skill = 5
         self.will = 5
+        self.location = None
+        #Need to add a current location attribute
 
     def get_inv(self):
         return self.inventory
@@ -36,14 +38,40 @@ class Adventurer:
         if len(self.inventory) != 0:
             for item_ in self.inventory:
                 print(item_.get_name())
-                print("Grants a bonus of " + item_.get_skill_bonus() + " to SKILL.")
-                print("Grants a bonus of " + item_.get_will_bonus() + " to WILL.")
+                print("Grants a bonus of " + str(item_.get_skill_bonus()) + " to SKILL.")
+                print("Grants a bonus of " + str(item_.get_will_bonus()) + " to WILL.")
 
         else:
-            print("Nothing.")
-        print("With your items you have a SKILL level of " + self.skill + " and a WILL power of " + self.will)
+            print("Nothing.\n")
+        print("With your items you have a SKILL level of " + str(self.skill) + " and a WILL power of " + str(self.will))
         #"""TODO: Shows adventurer stats and all item stats."""
         pass
+
+    def change_location(self, dir, rooms): #Change this
+        if not self.location:
+            print("You can't move, you have no location and are nowhere.")
+
+        if not (self.location.get_north() or self.location.get_south() or self.location.get_east() or self.location.get_west()):
+            print("There is nowhere to move to. You are in a room with no doors.")
+
+        if (not self.location.get_north()) and dir == "N":
+            self.location = self.location.get_north()
+            return
+        if (not self.location.get_south()) and dir == "S":
+            self.location = self.location.get_south()
+            return
+        if (not self.location.get_east()) and dir == "E":
+            self.location = self.location.get_east()
+            return
+        if (not self.location.get_west()) and dir == "W":
+            self.location = self.location.get_west()
+            return
+        else:
+            print("Some sort of error pal.")
+            return
+
+
+
 
     def set_inventory(self, inventory):
         self.validate_inventory(inventory)

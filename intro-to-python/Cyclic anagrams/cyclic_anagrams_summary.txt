@@ -1,0 +1,222 @@
+length 2:
+eh -> he
+ho -> oh
+no -> on
+am -> ma
+ah -> ha
+
+length 3:
+ins -> sin
+are -> ear
+ags -> sag
+art -> tar
+add -> dad
+ape -> pea
+eel -> lee
+apt -> tap
+amp -> pam
+ate -> eat -> tea
+two -> wot
+eta -> tae
+arb -> bar
+ash -> has -> sha
+pya -> yap
+now -> own
+pre -> rep
+nur -> urn
+ink -> kin
+opt -> top
+owt -> tow
+alp -> pal
+arc -> car
+hug -> ugh
+aye -> yea
+how -> who
+arm -> mar
+its -> sit
+ant -> tan
+
+length 4:
+cabs -> scab
+pore -> repo
+pins -> spin
+amps -> samp
+etas -> seta
+nags -> snag
+pets -> spet
+lags -> slag
+ores -> sore
+leap -> plea
+stew -> tews
+arse -> ears -> sear
+kiss -> skis
+kids -> skid
+stub -> tubs
+pams -> spam
+cats -> scat
+haet -> thae
+earn -> near
+lays -> slay
+egos -> sego
+eros -> rose
+pate -> tepa
+acer -> race
+chit -> itch
+huts -> shut
+hoes -> shoe
+stab -> tabs
+eath -> heat
+nips -> snip
+lots -> slot
+pass -> spas
+oles -> sole
+eats -> seat
+ates -> sate
+meta -> tame
+ours -> sour
+owns -> sown
+aril -> lari
+late -> tela
+aper -> rape
+swig -> wigs
+sten -> tens
+arts -> tsar
+stop -> tops
+inks -> sink
+alts -> salt
+pits -> spit
+emit -> item -> mite
+hams -> sham
+acyl -> lacy
+cars -> scar
+aves -> save
+cedi -> dice -> iced
+lump -> plum
+pots -> spot
+coni -> icon
+grin -> ring
+dite -> edit
+cans -> scan
+blam -> lamb
+amen -> name
+star -> tars
+kins -> skin
+hots -> shot
+dear -> eard
+nows -> snow
+mane -> nema
+nevi -> vine
+aide -> idea
+eras -> rase -> sera
+oils -> soil
+lits -> slit
+east -> teas
+deil -> eild
+evil -> vile
+alps -> salp
+laps -> slap
+ared -> dare
+lips -> slip
+chin -> inch
+lats -> slat
+peri -> ripe
+oaks -> soak
+calo -> loca
+free -> reef
+
+length 5:
+stilt -> tilts
+swart -> warts
+hocks -> shock
+agree -> eagre
+kills -> skill
+halls -> shall
+dozen -> zendo
+stalk -> talks
+rinse -> serin
+needs -> sneed
+cares -> escar -> scare
+steer -> teers
+reest -> trees
+pores -> spore
+surge -> urges
+lives -> slive
+marts -> smart
+peaks -> speak
+swell -> wells
+stick -> ticks
+peals -> speal
+pelts -> spelt
+swing -> wings
+bowel -> elbow
+cents -> scent
+alloy -> loyal
+ether -> there
+parts -> spart
+hires -> shire
+melts -> smelt
+licks -> slick
+stime -> times
+ester -> stere -> teres
+stack -> tacks
+sever -> verse
+prats -> sprat
+nails -> snail
+hooks -> shook
+ports -> sport
+prays -> spray
+steam -> teams
+pales -> spale
+miles -> smile
+pills -> spill
+harps -> sharp
+strip -> trips
+strap -> traps
+almes -> mesal
+houts -> shout
+leeks -> sleek
+swipe -> wipes
+stain -> tains
+gater -> terga
+loops -> sloop
+ought -> tough
+mites -> smite
+pools -> spool
+limes -> slime
+coeds -> scoed
+parks -> spark
+crews -> screw
+aside -> ideas
+
+length 6:
+bedlam -> lambed
+howres -> reshow
+strait -> traits
+dimple -> impled
+dreare -> reared
+dunite -> united
+pintos -> spinto
+altern -> ternal
+errant -> ranter
+enders -> sender
+strain -> trains
+impart -> partim
+enlist -> listen
+supper -> uppers
+emoter -> remote
+oughts -> sought
+layers -> slayer
+
+length 7:
+stiling -> tilings
+lippers -> slipper
+gunshot -> shotgun
+layover -> overlay
+airings -> sairing
+lookout -> outlook
+
+length 8:
+crawlers -> scrawler
+hangover -> overhang
+alchemic -> chemical
+cuffless -> scuffles

@@ -62,6 +62,7 @@ def check_only_tuples(lst):
 
 
 def valid_string_tuples(lst):
+
     return not check_empty_string(lst) and check_only_tuples(lst)
 
 #For a list of strings
